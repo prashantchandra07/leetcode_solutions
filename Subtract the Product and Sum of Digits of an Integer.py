@@ -3,8 +3,8 @@ class Solution:
         lst = []
         num = n
         while num > 0:
-            c = num%10
-            lst.append(int(c))
+            cnst = num%10
+            lst.append(int(cnst))
             num = int(num/10)
             
         prod = 1
